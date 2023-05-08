@@ -12,6 +12,7 @@ using namespace std;
       ListNode(int x, ListNode *next) : val(x), next(next) {}
   };
 
+  //------------------------------善用STL容器-----------
 // class Solution {
 // public:
 //     ListNode* mergeKLists(vector<ListNode*>& lists) {
