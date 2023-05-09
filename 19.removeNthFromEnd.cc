@@ -40,6 +40,7 @@ public:
         // ListNode* tmp=p2->next;
         p2->next=p2->next->next;
         // free(tmp);
+        //-----------------------------这里是否需要释放删除的节点内存呢，会不会造成内存泄露呢，to be continued...
 
         return dummy->next;
     }
